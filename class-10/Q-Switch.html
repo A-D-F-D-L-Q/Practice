@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question on Switch Case</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        /*Write a switch statement to print the day of the week for numbers 1 to 7.*/
+
+        var day = 1;
+        switch (day) {
+            case 1:
+                document.write("Today is Monday")
+                break;
+            case 2:
+                document.write("Today is Tuesday")
+                break;
+            case 3:
+                document.write("Today is Wednesday")
+                break;
+            case 4:
+                document.write("Today is Thursday")
+                break;
+            case 5:
+                document.write("Today is Friday")
+                break;
+            case 6:
+                document.write("Today is Saturdat")
+                break;
+            case 7:
+                document.write("Today is Sunday")
+                break;
+            default:
+                document.write("Enter the valid week day")
+        }
+
+        document.write("<br>")
+
+        /*
+        Convert the following if-else code to a switch statement:
+
+        let fruit = "apple";
+            if (fruit === "apple") 
+            {
+                console.log("Apples are red.");
+                } else if (fruit === "banana") {
+                    console.log("Bananas are yellow.");
+                } else {
+                    console.log("Unknown fruit.");
+            }
+        */
+        var fruit = "apple";
+        switch (true) {
+            case (fruit === "apple"):
+                document.write("apples are red");
+                break;
+            case (fruit === "banana"):
+                document.write("Bananas are yellow");
+                break;
+            default:
+                document.write("Unknown Fruits")
+        }
+    </script>
+</body>
+
+</html>
